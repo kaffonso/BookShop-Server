@@ -1,4 +1,4 @@
-from json import JSONEncoder
+from flask.json import JSONEncoder
 from flask import Flask, abort, jsonify, make_response, request
 
 class Book:
